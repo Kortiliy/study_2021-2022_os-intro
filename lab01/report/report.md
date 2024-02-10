@@ -73,29 +73,29 @@ header-includes:
 # Выполнение лабораторной работы
 1) Подготовка (Создание проекта, Внесение изменений, Индексация изменений, Отмена локальных изменений(до индексации), Отмена проиндексированных изменений(перед коммитом)
    Отмена коммитов, Удаление коммиттов из ветки, Удаление тега oops) 
-![к1](image/к1.jpg){ #fig:001 width=70% }
-![к2](image/к2.jpg){ #fig:001 width=70% }
-![к3](image/к3.jpg){ #fig:001 width=70% }
-![к4](image/к4.jpg){ #fig:001 width=70% }
-![к5](image/к5.jpg){ #fig:001 width=70% }
-![к6](image/к6.jpg){ #fig:001 width=70% }
-![к7](image/к7.jpg){ #fig:001 width=70% }
-![к8](image/к8.jpg){ #fig:001 width=70% }
-![к9](image/к9.jpg){ #fig:001 width=70% }
-![к10](image/к10.jpg){ #fig:001 width=70% }
-![к11](image/к11.jpg){ #fig:001 width=70% }
+![к1](image/к1.jpg)
+![к2](image/к2.jpg)
+![к3](image/к3.jpg)
+![к4](image/к4.jpg)
+![к5](image/к5.jpg)
+![к6](image/к6.jpg)
+![к7](image/к7.jpg)
+![к8](image/к8.jpg)
+![к9](image/к9.jpg)
+![к10](image/к10.jpg)
+![к11](image/к11.jpg)
 
 2) Внесение изменений в коммиты
    
-![t1](image/t1.jpg){ #fig:001 width=70% }
-![t2](image/t2.jpg){ #fig:001 width=70% }
+![t1](image/t1.jpg)
+![t2](image/t2.jpg)
 
 3) Перемещение файлов
-![t3](image/t3.jpg){ #fig:001 width=70% }
+![t3](image/t3.jpg)
 
 4) Подробнее о структуре ( Добавление index.html, Углубляемся в базу данных объектов ).
-![t4](image/t4.jpg){ #fig:001 width=70% }
-![t5](image/t5.jpg){ #fig:001 width=70% }
+![t4](image/t4.jpg)
+![t5](image/t5.jpg)
 # Выводы
 
 Здесь кратко описываются итоги проделанной работы.
