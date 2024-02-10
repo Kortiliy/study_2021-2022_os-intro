@@ -1,4 +1,4 @@
-![image](https://github.com/Kortiliy/study_2021-2022_os-intro/assets/104276688/7e8195d5-acad-4da3-a10e-6476aab9c165)---
+![image](https://github.com/Kortiliy/study_2021-2022_os-intro/assets/104276688/4ffae55e-5ee0-4921-be7c-2bfa70f92086)![image](https://github.com/Kortiliy/study_2021-2022_os-intro/assets/104276688/7e8195d5-acad-4da3-a10e-6476aab9c165)---
 ## Front matter
 title: "Лабораторная работа 1"
 author: "Коротун Илья Игоревич"
@@ -113,12 +113,44 @@ header-includes:
 
 ![t5](image/t5.jpg)
 
+6) Работа непосредственно с объектами git
+   
+![t6](image/t6.jpg)
+
+7) Работа с ветками ( создание, навигация и прочее)
+
+![t7](image/t7.jpg)
+
+![t8](image/t8.jpg)
+
+![t9](image/t9.jpg)
+
+![t10](image/t10.jpg)
+
+8) Конфликт ( создание и решение )
+
+
+![t11](image/t11.jpg)
+
+![t12](image/t12.jpg)
+
+![t13](image/t13.jpg)
+
+9) Работа с репозиториями
+
+![t14](image/t14.jpg)
+
+![t15](image/t15.jpg)
+
+![t16](image/t16.jpg)
+
+10) Изменения (отправка, извлечение )
+
+![t17](image/t17.jpg)
+
+![t18](image/t18.jpg)
+
+
+
 # Выводы
-
-
-Здесь кратко описываются итоги проделанной работы.
-
-# Список литературы{.unnumbered}
-
-::: {#refs}
-:::
+Я научился работать с git и выполнил Лабораторную работу №1 на основе полученных знаний.
