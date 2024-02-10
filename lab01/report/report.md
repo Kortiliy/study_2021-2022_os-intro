@@ -1,4 +1,4 @@
-![image](https://github.com/Kortiliy/study_2021-2022_os-intro/assets/104276688/4ffae55e-5ee0-4921-be7c-2bfa70f92086)![image](https://github.com/Kortiliy/study_2021-2022_os-intro/assets/104276688/7e8195d5-acad-4da3-a10e-6476aab9c165)---
+
 ## Front matter
 title: "Лабораторная работа 1"
 author: "Коротун Илья Игоревич"
