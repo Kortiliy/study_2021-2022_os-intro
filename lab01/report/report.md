@@ -72,7 +72,7 @@ header-includes:
 
 # Выполнение лабораторной работы
 
-![к1](image/placeimg_800_600_к1.jpg){ #fig:001 width=70% }
+![к1](image/к1.jpg){ #fig:001 width=70% }
 
 # Выводы
 
