@@ -142,7 +142,7 @@ header-includes:
 
 ![t15](image/t15.jpg)
 
-![t16](image/t16.jpg)
+![t16](image/t16.jpg) 
 
 10) Изменения (отправка, извлечение )
 
