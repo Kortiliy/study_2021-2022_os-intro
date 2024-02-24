@@ -77,23 +77,35 @@ using DifferentialEquations
 Задаем начальные значения 
 
 x0 = 202000
+
 y0 = 92000
+
 tspan = [0,1]
+
 p = [0.13, 0.51, 0.41, 0,15]
+
 
 Задаем функцию и задачачу Коши с помощью ODEProblem и решаем ее с помощью solve
 
 function f(n,p,t)
+
     x,y = n
+    
     a,b,c,h = p
+    
     dx = -a*x - b*y + 0.5*sin(t+13)
+    
     dy = -c*x - h*y + 0.5*cos(t+2)
+    
     return[dx,dy]
+    
     
 end
 
 problem = ODEProblem(f,[x0,y0],tspan,p)
+
 solution = solve(problem,Tsit5())
+
 
 С помощью Plot строим график 
 
@@ -109,6 +121,10 @@ plot(solution,label = ["Страна X" "Страна Y"], xaxis = "Время",
 
 ![Рисунок6](image/l9.jpg)
 
+## Результат 
+
+![Рисунок10](image/l3.jpg)
+
 ## Cистема, с участием регулярных войск и партизанских отрядов:
 
  ![Рисунок7](image/l6.jpg)
@@ -116,29 +132,43 @@ plot(solution,label = ["Страна X" "Страна Y"], xaxis = "Время",
  Julia : 
 Для начала вводим необходимые библиотеки
 
+
 using Plots
+
 using DifferentialEquations
+
 
 
 Задаем начальные значения 
 
 x0 = 202000
+
 y0 = 92000
+
 tspan = [0,1]
+
 p = [0.08, 0.76, 0.64, 0,07]
+
 
 Задаем функцию и задачачу Коши с помощью ODEProblem и решаем ее с помощью solve
 
 function f(n,p,t)
+
     x,y = n
+    
     a,b,c,h = p
+    
     dx = -a*x - b*y + sin(2t)+1
+
     dy = -c*x*y - h*y + cos(3t)+1
+    
     return[dx,dy]
+    
     
 end
 
 problem = ODEProblem(f,[x0,y0],tspan,p)
+
 solution = solve(problem,Tsit5())
 
 С помощью Plot строим график 
@@ -155,6 +185,10 @@ plot(solution,label = ["Страна X" "Страна Y"], xaxis = "Время",
 
 ![Рисуно9](image/l10.jpg)
 
+
+## Результат 
+
+![Рисунок11](image/l4.jpg)
 
 # Вывод
 
