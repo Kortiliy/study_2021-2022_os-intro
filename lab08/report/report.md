@@ -207,30 +207,49 @@ plot(solution2)
 
 model lab8
 
+
 parameter Real Pcr = 33;
+
 parameter Real N = 83;
+
 parameter Real q = 1;
+
 parameter Real t1 = 27;
+
 parameter Real t2 = 24;
+
 parameter Real p1 = 11.3;
+
 parameter Real p2 = 12.5;
 
+
 parameter Real a1 = Pcr/(t1^2 * p1^2 * N * q);
+
 parameter Real a2 = Pcr/(t2^2 * p2^2 * N * q);
+
 parameter Real b = Pcr/(t1^2 * p1^2 * t2^2 * p2^2 * N * q);
+
 parameter Real c1 = (Pcr - p1)/(t1 * p1);
+
 parameter Real c2 = (Pcr - p2)/(t2 * p2);
 
 
+
 Real M10(start = 8.5);
+
 Real M20(start = 9.1);
+
 
 equation
 
+
  der(M10) = M10 - b/c1 * M10 * M20 - a1/c1 * M10^2;
+ 
  der(M20) = c2/c1 * M20 - b/c1 * M10 * M20 - a2/c1 * M20^2;
+ 
 
 end lab8;
+
 
 ![Рисунок7](image/b3.jpg){случай 1}
 
@@ -239,30 +258,48 @@ end lab8;
 
 model lab8
 
+
 parameter Real Pcr = 33;
+
 parameter Real N = 83;
+
 parameter Real q = 1;
+
 parameter Real t1 = 27;
+
 parameter Real t2 = 24;
+
 parameter Real p1 = 11.3;
+
 parameter Real p2 = 12.5;
 
+
 parameter Real a1 = Pcr/(t1^2 * p1^2 * N * q);
+
 parameter Real a2 = Pcr/(t2^2 * p2^2 * N * q);
+
 parameter Real b = Pcr/(t1^2 * p1^2 * t2^2 * p2^2 * N * q);
+
 parameter Real c1 = (Pcr - p1)/(t1 * p1);
+
 parameter Real c2 = (Pcr - p2)/(t2 * p2);
 
 
 Real M10(start = 8.5);
+
 Real M20(start = 9.1);
+
 
 equation
 
+
  der(M10) = M10 - (b/c1 + 0.00019) * M10 * M20 - a1/c1 * M10^2;
+ 
  der(M20) = c2/c1 * M20 - b/c1 * M10 * M20 - a2/c1 * M20^2;
+ 
 
 end lab8;
+
 
 ![Рисунок8](image/b4.jpg){случай 2}
 
