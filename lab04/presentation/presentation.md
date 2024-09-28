@@ -98,9 +98,9 @@ chattr -a /home/guest/dir1/file1
 
 10. Повторил все действия по шагам, заменив атрибут «a» атрибутом «i».
 
-![j7](image/j6.jpg)
+![j7](image/j7.jpg)
 
-![j8](image/j6.jpg)
+![j8](image/j8.jpg)
 
 # Выводы
 
