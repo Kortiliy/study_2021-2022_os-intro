@@ -190,7 +190,7 @@ chcon -t httpd_sys_content_t /var/www/html/test.html
 
 ![Рисунок18](image/k18.jpg)
 
-26. Удалил файл /var/www/html/test.html: rm /var/www/html/test.html
+24. Удалил файл /var/www/html/test.html: rm /var/www/html/test.html
 
 ![Рисунок19](image/k19.jpg)
 
