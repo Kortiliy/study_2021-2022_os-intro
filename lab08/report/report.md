@@ -84,7 +84,7 @@ header-includes:
 
 Код на Python
 
-![Рисунок1](imageш.jpg)
+![Рисунок1](image/ш.jpg)
 
 
 # Контрольные вопросы
