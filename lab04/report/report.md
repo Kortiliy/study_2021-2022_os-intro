@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/34af37d7-1b81-4827-8e50-3380a062caea)---
 ## Front matter
 title: "Лабораторная работа №4"
 subtitle: "Линейная алгебра"
