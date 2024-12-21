@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/f6dba59d-c1ec-48e0-8b06-9fd58f5fcf04)---
 ## Front matter
 title: "Лабораторная работа №6"
 subtitle: "Решение моделей в непрерывном и дискретном времени"
